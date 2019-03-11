@@ -1,0 +1,25 @@
+.holiday{ border-radius: 5px; padding: 5px; height: 32px; font-size: 14px; border: 1px solid #bfcbd9; overflow: hidden;}
+ul,li{ list-style: none; padding: 0; margin: 0;}
+.holiday span{ display: inline-block; margin:0 5px; border-radius: 3px; padding: 5px; line-height: 24px; background:#ECECEC;}
+.holiday span i{ width: 16px; height: 16px; text-align: center; line-height: 15px; display: inline-block; border-radius: 50%; margin-left: 5px; margin-bottom: 2px; font-style: normal; background: rgb(202, 202, 202); cursor: pointer;}
+.holiday:active,
+.holiday.clicked{ border-color: #20a0ff;}
+.dateBox{ width: 660px; font-size: 14px; color: #48576a; border: 1px solid #d1dbe5; box-shadow: 0 2px 6px #ccc; background: #fff; border-radius: 2px; line-height: 20px; margin: 5px 0;}
+.is-left{ border-right: #E4E4E4 1px solid;}
+.date__body{ overflow: hidden; width: 100%;}
+.date__header{ text-align: center; height: 28px;}
+.date__header button{ float:left; font-size: 30px; font-weight: 200; color: rgb(161, 221, 255); background: none; border: 0; cursor: pointer; margin-top: -10px;}
+.is-right .date__header button{ float: right;}
+.date__header div{ margin:0 50px;}
+.date__content{ float: left; width: 50%; box-sizing: border-box; margin: 0; padding: 16px;}
+.date-table{ width: 100%; font-size: 12px;}
+.date-table .week li{ padding: 5px; color: #8391a5; font-weight: 400;}
+.date-table li{ width: 42px; height: 32px; line-height: 32px; float: left; box-sizing: border-box; text-align: center; cursor: pointer;}
+.date-table li.next-month, .date-table li.prev-month{ color: #DDD;}
+.date-table li.today{ font-size: 14px; font-weight: 600; color: #20a0ff; border: #20a0ff 1px solid; position: relative;}
+.date-table li.today:before { content: " "; position: absolute; top: 0; right: 0; width: 0; height: 0; border-top: .5em solid #20a0ff; border-left: .5em solid transparent;}
+.date-table li.active{ background: #20a0ff; color: #FFF;}
+.date__footer{ border-top: 1px solid #e4e4e4; padding: 4px; text-align: right; background-color: #fff;}
+.date__footer a{ margin-right: 10px; padding: 5px 15px; color: #20a0ff; display: inline-block; cursor: pointer;}
+.date__footer button{ background: #20a0ff; color: #fff; border: 0; padding: 5px 15px; border-radius: 3px; cursor: pointer;}
+.date__footer button:hover{ background:#1390f0;}
